@@ -1,38 +1,126 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.container {
+  width: 60%;
+}
+
+.Search {
+  border-radius: 36px;
+  box-shadow: -5px 10px 24px rgb(2 2 2);
+  display: flex;
+  justify-content: center;
+}
+
+.Search-Wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  font-size: 2.8em;
+  background: #0e0f15;
+  border: 1px solid black;
+  border-radius: 36px;
+  padding: 0 21px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
   color: white;
+  outline: none;
+  height: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-button {
+  background: none;
+  border: 1px solid black;
+  border-left: 0;
+  border-top-right-radius: 43px;
+  border-bottom-right-radius: 43px;
+  width: 45px;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Card {
+  border: 1px solid black;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  width: 12em;
+  height: 300px;
+  box-shadow: -5px 10px 24px rgb(2 2 2);
+  flex-flow: column;
+  margin-right: 17px;
+  margin-left: 16px;
+  margin-top: 34px;
+  text-align: center;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+.Card:hover {
+  transform: scale(1.2);
+}
+
+.character-image {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 12em;
+  height: 223px;
+}
+
+.character-image-section {
+  width: 16em;
+  height: 280px;
+}
+
+.character-description-section {
+  display: flex;
+  margin-top: 10em;
+}
+
+.character-description-section__info {
+  margin-left: 3em;
+}
+
+.character-description-section__text {
+  font-size: 23px;
+}
+
+.character-name {
+  font-size: 24px;
+  flex-grow: 1;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.character-real-name {
+  font-size: 40px;
+}
+
+.character-sub-name {
+  text-transform: uppercase;
+}
+
+.close-button {
+  background: black;
+  height: 30px;
+  padding: 0 11px;
+  text-align: center;
+  border-radius: 66px;
+  font-size: 18px;
+}
+
+.close-button > a {
+  color: white;
+  text-decoration: none;
 }

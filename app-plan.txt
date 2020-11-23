@@ -1,0 +1,34 @@
+app plan
+- We are going to have a search engine DONE
+- With our search engine, the user can browse for the umbrella academy characters DONE
+-- We need to create an action, that takes what is written in the search bar, submit it to a reducer, so that this reducer
+search through the database for item that does have this certain string
+- For each one of them we are going to display a card, in which when you click on it, it shows a more detailed section describing
+the character
+- The characters database are going to be stored in our redux store
+
+components
+- App.js is going to wrap everybody
+- Search.js is going to be the form component
+- Cards.js is going to display all the cards
+- Card.js is going to be a card
+
+
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
+PROJECT FINISHED!!!!!!!!!!!
